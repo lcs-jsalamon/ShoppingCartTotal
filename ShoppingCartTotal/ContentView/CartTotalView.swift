@@ -35,9 +35,9 @@ struct CartTotalView: View {
                 .padding()
             }
             // 3. allow for input to occur
-            TextField("Enter the time in hours", text: $viewModel.providedPriceOne)
-            TextField("Enter the time in hours", text: $viewModel.providedPriceTwo)
-            TextField("Enter the time in hours", text: $viewModel.providedPriceThree)
+            TextField("Enter Price of First Item", text: $viewModel.providedPriceOne)
+            TextField("Enter Price of Second Item", text: $viewModel.providedPriceTwo)
+            TextField("Enter Price of Third Item", text: $viewModel.providedPriceThree)
             
             //Show history label
             HStack{
